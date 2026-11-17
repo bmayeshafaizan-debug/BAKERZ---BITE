@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | Bakerz Bite Karachi</title>
+  <meta name="description" content="The page you are looking for on Bakerz Bite could not be found. Return to our homepage to explore fresh cakes, savories, pastries, and coffee in Karachi." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="shortcut icon" href="/Bakerz-Bite/material/Logo.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --background-color--: #fff8ed;
+      --gold: #DEA347;
+      --light-purple: #d8a7ff;
+      --cream: #fff0df;
+      --hover: #511d53;
+      --white--: #ffffff;
+      --nav-bg: #3b123c;
+      --text-color--: #3b123c;
+      --purple: #6f3fa8;
+      --text-color: #120b18;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background-color--);
+      background-image: radial-gradient(circle at 15% 20%, rgba(222, 163, 71, 0.12) 0%, transparent 45%),
+                        radial-gradient(circle at 85% 80%, rgba(111, 63, 168, 0.08) 0%, transparent 45%);
+      color: var(--text-color--);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--nav-bg);
+      color: var(--white--);
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      letter-spacing: 0.5px;
+      z-index: 10;
+    }
+
+    .card {
+      background: var(--white--);
+      border: 1px solid var(--cream);
+      border-radius: 1.5rem;
+      padding: 3rem 2.5rem;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 45px rgba(59, 18, 60, 0.08);
+      margin-top: 2rem;
+    }
+
+    .brand-logo {
+      height: 70px;
+      width: auto;
+      object-fit: contain;
+      margin-bottom: 1.25rem;
+    }
+
+    .subtitle-tag {
+      display: inline-block;
+      background-color: var(--cream);
+      color: var(--purple);
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      padding: 0.35rem 0.95rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    .error-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 6rem;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--nav-bg);
+      margin-bottom: 0.75rem;
+    }
+
+    .donut-zero {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold), #c08533);
+      border: 6px solid var(--nav-bg);
+      box-shadow: inset 0 -4px 8px rgba(59, 18, 60, 0.35);
+      position: relative;
+    }
+
+    .donut-zero::after {
+      content: "";
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: var(--white--);
+      border: 3px solid var(--nav-bg);
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.95rem;
+      font-weight: 700;
+      color: var(--nav-bg);
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: var(--text-color);
+      font-size: 0.96rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+      opacity: 0.85;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.85rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem 1.65rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .btn-primary {
+      background-color: var(--nav-bg);
+      color: var(--white--);
+      box-shadow: 0 8px 20px rgba(59, 18, 60, 0.2);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--nav-bg);
+      border: 1.5px solid var(--gold);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--cream);
+      transform: translateY(-2px);
+    }
+
+    .quick-links {
+      border-top: 1px solid var(--cream);
+      padding-top: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--text-color);
+    }
+
+    .quick-links span {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    .quick-links a {
+      color: var(--purple);
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0 0.45rem;
+      transition: color 0.2s;
+    }
+
+    .quick-links a:hover {
+      color: var(--hover);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 2.25rem 1.4rem;
+      }
+      .error-wrapper {
+        font-size: 4.5rem;
+      }
+      .donut-zero {
+        width: 58px;
+        height: 58px;
+        border-width: 5px;
+      }
+      .donut-zero::after {
+        width: 18px;
+        height: 18px;
+      }
+      h2 {
+        font-size: 1.55rem;
+      }
+      .actions {
+        flex-direction: column;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-banner">Now Delivering in Karachi! | Freshly Baked With Love</div>
+
+  <div class="card">
+    <img src="/Bakerz-Bite/material/Logo.png" alt="Bakerz Bite" class="brand-logo" onerror="this.style.display='none'" />
+
+    <div>
+      <span class="subtitle-tag">Where Smiles Are Served Daily</span>
+    </div>
+
+    <div class="error-wrapper">
+      <span>4</span>
+      <span class="donut-zero" aria-label="0"></span>
+      <span>4</span>
+    </div>
+
+    <h2>404 — Oops! Page Not Found</h2>
+    <h2 style="font-size: 1.05rem; font-weight: 500; color: var(--purple); margin-bottom: 0.75rem;">Let's Get You Back to Freshly Baked Treats</h2>
+    <p>
+      The treat or page you're looking for seems to have been moved, taken off the menu, or the link might be incorrect. Let's get you back to our freshly baked delights!
+    </p>
+
+    <div class="actions">
+      <a href="/Bakerz-Bite/index.html" class="btn btn-primary">Back to Home</a>
+      <a href="/Bakerz-Bite/contact.html" class="btn btn-secondary">Contact Us</a>
+    </div>
+
+    <div class="quick-links">
+      <span>Explore Our Menu:</span>
+      <a href="/Bakerz-Bite/index.html#cake">Cakes</a> •
+      <a href="/Bakerz-Bite/index.html#savory">Savories</a> •
+      <a href="/Bakerz-Bite/About.html">About Us</a> •
+      <a href="/Bakerz-Bite/contact.html#faq">FAQ</a>
+    </div>
+  </div>
+</body>
+</html>

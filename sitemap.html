@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Map | Bakerz Bite Bakery Karachi</title>
+  <meta name="description" content="Explore the complete HTML Sitemap of Bakerz Bite Karachi. Quickly navigate to all pages, fresh cakes, savories, cupcakes, shakes, coffee, custom cakes, offers, gallery, FAQs, and contact details." />
+  <meta name="keywords" content="Bakerz Bite sitemap, Bakerz Bite pages, Karachi bakery menu links, fresh cakes, savories, coffee, custom cakes" />
+  <meta name="author" content="Bakerz Bite" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bmayeshafaizan-debug.github.io/Bakerz-Bite/sitemap.html" />
+
+  <!-- Open Graph / Social Media SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bakerz Bite" />
+  <meta property="og:title" content="Site Map | Bakerz Bite Bakery Karachi" />
+  <meta property="og:description" content="Complete directory of all Bakerz Bite pages, bakery menu categories, offers, and customer help sections." />
+  <meta property="og:url" content="https://bmayeshafaizan-debug.github.io/Bakerz-Bite/sitemap.html" />
+  <meta property="og:image" content="https://bmayeshafaizan-debug.github.io/Bakerz-Bite/material/Logo.png" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="material/logo with bg.png" type="image/x-icon">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main Theme Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navitem {
+      position: relative;
+      z-index: 1000;
+    }
+
+    .sitemap-section {
+      background-color: #fff8ed;
+      background-image: radial-gradient(circle at 12% 18%, rgba(222, 163, 71, 0.14) 0%, transparent 45%),
+                        radial-gradient(circle at 88% 82%, rgba(111, 63, 168, 0.10) 0%, transparent 45%);
+      padding: 4.5rem 1rem 5.5rem;
+      min-height: 75vh;
+    }
+
+    .sitemap-hero {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 3.25rem;
+    }
+
+    .sitemap-badge {
+      display: inline-block;
+      background-color: #fff0df;
+      color: #6f3fa8;
+      border: 1px solid rgba(222, 163, 71, 0.45);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 0.4rem 1.1rem;
+      border-radius: 50px;
+      margin-bottom: 1rem;
+    }
+
+    .sitemap-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      color: #3b123c;
+      font-size: 2.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .sitemap-hero p {
+      color: #4a354b;
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    .sitemap-card {
+      background: #ffffff;
+      border: 1px solid #f2dfc7;
+      border-radius: 1.25rem;
+      padding: 2rem 1.75rem;
+      height: 100%;
+      box-shadow: 0 12px 30px rgba(59, 18, 60, 0.06);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .sitemap-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 18px 38px rgba(59, 18, 60, 0.12);
+      border-color: #DEA347;
+    }
+
+    .sitemap-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding-bottom: 1rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 2px solid #fff0df;
+    }
+
+    .sitemap-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #3b123c, #6f3fa8);
+      color: #DEA347;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+
+    .sitemap-card-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #3b123c;
+      margin: 0;
+    }
+
+    .sitemap-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sitemap-list li {
+      margin-bottom: 0.75rem;
+    }
+
+    .sitemap-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .sitemap-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      color: #2b182c;
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.55rem 0.85rem;
+      border-radius: 0.65rem;
+      background-color: #fffbf4;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+    }
+
+    .sitemap-list a:hover {
+      background-color: #3b123c;
+      color: #ffffff;
+      border-color: #DEA347;
+      padding-left: 1.1rem;
+    }
+
+    .sitemap-list a .route-tag {
+      font-size: 0.75rem;
+      font-family: monospace;
+      color: #6f3fa8;
+      background: #f3e8ff;
+      padding: 0.15rem 0.5rem;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .sitemap-list a:hover .route-tag {
+      background: #DEA347;
+      color: #3b123c;
+      font-weight: 600;
+    }
+
+    .xml-banner {
+      background: linear-gradient(135deg, #3b123c 0%, #511d53 100%);
+      color: #ffffff;
+      border-radius: 1.25rem;
+      padding: 1.75rem 2rem;
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      border: 1px solid #DEA347;
+    }
+
+    .xml-banner h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #DEA347;
+      margin-bottom: 0.25rem;
+    }
+
+    .xml-banner p {
+      margin: 0;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .xml-btn {
+      background-color: #DEA347;
+      color: #3b123c;
+      font-weight: 600;
+      padding: 0.7rem 1.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .xml-btn:hover {
+      background-color: #ffffff;
+      color: #3b123c;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 576px) {
+      .sitemap-hero h1 {
+        font-size: 2.05rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <p>Now Delivering in Karachi!</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navitem">
+      <div class="nav-left">
+        <!-- LOCATION -->
+        <div class="location" onclick="openLocationPopup()">
+          <div class="location-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="location-content">
+            <span class="location-title">DELIVERY</span>
+            <span id="display">Select Location</span>
+          </div>
+          <div class="location-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <!-- LOCATION POPUP -->
+        <div class="location-popup" id="locationPopup">
+          <div class="location-modal">
+            <button class="close-location" onclick="closeLocationPopup()">&times;</button>
+            <div class="popup-logo-box">
+              <img src="material/Logo.png" alt="Bakerz Bite Bakery Logo">
+            </div>
+            <h2>Select Your Order Type</h2>
+            <div class="order-type">
+              <button class="order-btn active" id="deliveryBtn">Delivery</button>
+              <button class="order-btn" id="pickupBtn">Pick-Up</button>
+            </div>
+            <p class="location-question">Please select your location</p>
+            <label for="citySelect">City</label>
+            <input type="text" value="Karachi" disabled class="popup-select">
+            <label for="areaSelect">Please select your area</label>
+            <select id="areaSelect" class="popup-select">
+              <option value="">Select Location</option>
+            </select>
+            <button class="select-location-btn" onclick="confirmLocation()">Select</button>
+          </div>
+        </div>
+
+        <!-- Call & Order -->
+        <div class="call text">
+          <div class="call-icon"><i class="fa-solid fa-phone"></i></div>030-012-345-67
+        </div>
+      </div>
+
+      <!-- Logo -->
+      <a href="index.html" class="navlogo"><img src="material/Logo.png" alt="Bakerz Bite Bakery Logo"></a>
+
+      <!-- Visitor Counter & Menu -->
+      <div class="nav-right">
+        <div class="visitor"><i class="fa-regular fa-user vc"></i><span id="counter">1204</span></div>
+        <button class="menu-btn" id="menuBtn" onclick="toggleMenu()">☰</button>
+      </div>
+
+      <div class="nav-menu" id="navMenu">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <a href="index.html">Home</a>
+        <a href="index.html#merchandise">Merchandise</a>
+        <a href="index.html#offers">Offers</a>
+        <a href="About.html#gallery">Gallery</a>
+        <a href="About.html">About Us</a>
+        <a href="contact.html#faq">FAQ</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="sitemap.html">Sitemap</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HTML Sitemap Section -->
+  <main class="sitemap-section">
+    <div class="container">
+
+      <div class="sitemap-hero" data-aos="fade-down">
+        <span class="sitemap-badge">✦ Complete Website Directory ✦</span>
+        <h1>Bakerz Bite Site Map</h1>
+        <p>
+          Quickly explore every page, bakery category, special offer, and customer support section across our website.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Column 1: Core Website Pages (Root Files) -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="sitemap-card">
+            <div class="sitemap-card-header">
+              <div class="sitemap-icon"><i class="fa-solid fa-sitemap"></i></div>
+              <h2>Main Pages</h2>
+            </div>
+            <ul class="sitemap-list">
+              <li>
+                <a href="index.html">
+                  <span><i class="fa-solid fa-house me-2"></i>Home</span>
+                  <span class="route-tag">index.html</span>
+                </a>
+              </li>
+              <li>
+                <a href="About.html">
+                  <span><i class="fa-solid fa-store me-2"></i>About Us</span>
+                  <span class="route-tag">About.html</span>
+                </a>
+              </li>
+              <li>
+                <a href="About.html#gallery">
+                  <span><i class="fa-solid fa-images me-2"></i>Bakery Gallery</span>
+                  <span class="route-tag">About.html#gallery</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  <span><i class="fa-solid fa-envelope me-2"></i>Contact Us</span>
+                  <span class="route-tag">contact.html</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html#faq">
+                  <span><i class="fa-solid fa-circle-question me-2"></i>FAQs &amp; Help Center</span>
+                  <span class="route-tag">contact.html#faq</span>
+                </a>
+              </li>
+              <li>
+                <a href="404.html">
+                  <span><i class="fa-solid fa-triangle-exclamation me-2"></i>404 Error Page</span>
+                  <span class="route-tag">404.html</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 2: Bakery Menu Categories -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="sitemap-card">
+            <div class="sitemap-card-header">
+              <div class="sitemap-icon"><i class="fa-solid fa-cake-candles"></i></div>
+              <h2>Bakery Menu</h2>
+            </div>
+            <ul class="sitemap-list">
+              <li>
+                <a href="index.html#cake">
+                  <span><i class="fa-solid fa-cake-candles me-2"></i>Our Fresh Cakes</span>
+                  <span class="route-tag">#cake</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#savory">
+                  <span><i class="fa-solid fa-burger me-2"></i>Royal Savories</span>
+                  <span class="route-tag">#savory</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#brownies">
+                  <span><i class="fa-solid fa-cookie-bite me-2"></i>Cupcakes &amp; Pastries</span>
+                  <span class="route-tag">#brownies</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#shake">
+                  <span><i class="fa-solid fa-blender me-2"></i>The Shake Corner</span>
+                  <span class="route-tag">#shake</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#coffee">
+                  <span><i class="fa-solid fa-mug-hot me-2"></i>The Coffee Corner</span>
+                  <span class="route-tag">#coffee</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#customized">
+                  <span><i class="fa-solid fa-wand-magic-sparkles me-2"></i>Custom Celebration Cakes</span>
+                  <span class="route-tag">#customized</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 3: Specials, Merch & Customer Experience -->
+        <div class="col-12 col-md-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="sitemap-card">
+            <div class="sitemap-card-header">
+              <div class="sitemap-icon"><i class="fa-solid fa-tags"></i></div>
+              <h2>Offers &amp; Experience</h2>
+            </div>
+            <ul class="sitemap-list">
+              <li>
+                <a href="index.html#merchandise">
+                  <span><i class="fa-solid fa-bag-shopping me-2"></i>Bakerz Bite Merchandise</span>
+                  <span class="route-tag">#merchandise</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#offers">
+                  <span><i class="fa-solid fa-percent me-2"></i>First Order 15% OFF</span>
+                  <span class="route-tag">#offers</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#feedbackForm">
+                  <span><i class="fa-solid fa-star me-2"></i>Share Your Feedback</span>
+                  <span class="route-tag">#feedbackForm</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#testimonialCarousel">
+                  <span><i class="fa-solid fa-comments me-2"></i>Customer Testimonials</span>
+                  <span class="route-tag">#testimonialCarousel</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html#contact">
+                  <span><i class="fa-solid fa-location-dot me-2"></i>Karachi Store Location</span>
+                  <span class="route-tag">contact.html#contact</span>
+                </a>
+              </li>
+              <li>
+                <a href="sitemap.xml">
+                  <span><i class="fa-solid fa-code me-2"></i>XML Sitemap (Search Engines)</span>
+                  <span class="route-tag">sitemap.xml</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Search Engine XML Sitemap Callout -->
+      <div class="xml-banner" data-aos="fade-up">
+        <div>
+          <h3><i class="fa-solid fa-magnifying-glass me-2"></i>Search Engine XML Sitemap</h3>
+          <p>Looking for the machine-readable XML sitemap for Google Search Console indexing?</p>
+        </div>
+        <a href="sitemap.xml" class="xml-btn">Open sitemap.xml →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <!-- Bakerz Bite -->
+        <div class="col-md-3 footer-brand">
+          <div class="footer-logo"><img src="material/Logo.png" alt="Bakerz Bite Bakery Logo"></div>
+          <p>Freshly baked cakes, pastries, cookies and more.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <a href="index.html">Home</a><br>
+          <a href="index.html#categoryFilter">Categories</a><br>
+          <a href="index.html#offers">Offers</a><br>
+          <a href="About.html#gallery">Gallery</a><br>
+          <a href="About.html">About Us</a><br>
+          <a href="contact.html">Contact Us</a><br>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <p><i class="fa-solid fa-phone"></i> 030-012-345-67</p>
+          <p><i class="fa-solid fa-envelope"></i> info@bakerzbite.com</p>
+          <p><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+        </div>
+
+        <!-- Follow Us -->
+        <div class="col-md-3">
+          <h5>Follow Us</h5>
+          <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram ms-3"></i></a>
+          <a href="https://wa.me/923001234567" target="_blank"><i class="fa-brands fa-whatsapp ms-3"></i></a>
+        </div>
+      </div>
+
+      <div class="ticker">
+        <div class="ticker-content" id="tickerContent">
+          <i class="fa-regular fa-calendar-days"></i> Date: <span id="currentDate"></span>
+          &nbsp;&nbsp; | &nbsp;&nbsp;
+          <i class="fa-regular fa-clock"></i> Time: <span id="currentTime"></span>
+          &nbsp;&nbsp; | &nbsp;&nbsp;
+          <i class="fa-solid fa-location-dot"></i>Location: <span id="location">Getting location...</span>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>2026 Bakerz Bite. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Counter-Up & Waypoints -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+
+  <script>
+    $('#counter').counterUp();
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
+
